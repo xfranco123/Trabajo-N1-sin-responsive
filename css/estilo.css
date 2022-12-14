@@ -118,9 +118,6 @@ body {
 .inicio-cnt {
   background-color: var(--color-desierto);
   min-height: calc(100vh - 70px);
-}
-
-.inicio-cnt {
   display: flex;
   align-items: center;
 }
@@ -207,3 +204,105 @@ body {
   bottom: -200px;
   font-size: 1.3rem;
 }
+
+/* Estilo Section2 */
+
+.section2 {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+}
+
+/* Titulo y subtitulo */
+
+.title {
+  text-align: center;
+  line-height: 1.8;
+}
+
+.title span {
+  background-color: var(--color-desierto);
+  padding: 5px;
+}
+
+.subtitle {
+  font-weight: 600;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+/* Container1 sec2 */
+
+.cnt1-sec2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.subcont1 {
+  text-align: left;
+}
+
+.subcont1 h2 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.subcont1 span {
+  text-decoration: underline var(--color-desierto);
+  font-weight: 700;
+}
+
+.subcont1 p {
+  font-size: 1.4rem;
+  line-height: 1.8;
+}
+
+.subcont2 {
+  text-align: center;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 1700px;
+  justify-content: center;
+  align-items: center;
+}
+
+.contdos {
+  background-color: var(--color-desierto);
+  width: 120px;
+  height: 120px;
+  border-radius: 4rem;
+  font-size: 10rem;
+}
+
+.contdos span {
+  position: relative;
+  bottom: 60px;
+}
+
+/* Container 2 sec2 */
+
+.cnt2-sec2 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.1rem;
+}
+
+.titles-sec2 {
+  opacity: 0.6;
+  font-weight: 500;
+}
+
+.subtitles-sec2 {
+  font-weight: 600;
+  font-size: 1.125rem;
+  color: var(--color-letras);
+}
+
+.subtitles-sec2 a {
+  color: inherit;
+}
+
+/* Estilo section3 */
