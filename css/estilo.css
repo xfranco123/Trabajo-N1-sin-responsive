@@ -506,8 +506,15 @@ body {
 .img-cnt {
   width: 31.333%;
   padding: 10px;
+  position: relative;
 }
 
 .img-cnt img {
   width: 100%;
+}
+
+.img-cnt img:hover {
+  opacity: 0.5;
+  background-color: var(--color-letras);
+  transition: all 0.5s ease;
 }
