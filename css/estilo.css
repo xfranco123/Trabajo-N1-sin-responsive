@@ -309,32 +309,156 @@ body {
 
 .section3 {
   background-color: rgb(248, 249, 250);
+  min-height: calc(100vh - 70px);
+  padding-top: 100px;
 }
 
 .box-cnt-sec3 {
   margin-top: 3rem;
   display: flex;
   flex-wrap: wrap;
+  padding: px;
 }
 
 .box-sec3 {
   width: 33.333%;
   text-align: center;
   margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .box-sec3 i {
   font-size: 3rem;
   font-weight: 900;
   color: var(--color-desierto);
+  padding: 15px;
 }
 
 .box-sec3 h3 {
   font-size: 1.5rem;
   color: var(--color-letras);
+  padding: 15px;
 }
 
 .box-sec3 p {
   opacity: 0.6;
   font-weight: 500;
+}
+
+/* Estilo section4 */
+
+.section4 {
+  min-height: calc(100vh - 70px);
+  padding-top: 100px;
+}
+
+/* Primer container */
+
+.cont1-sec4 {
+  display: flex;
+  padding-top: 60px;
+}
+
+.sub-box1-sec4 {
+  border-left: solid var(--color-desierto);
+  padding-left: 15px;
+}
+
+.sub-box1-sec4 p {
+  padding-top: 10px;
+  margin-right: 20px;
+}
+
+.sub-box1-sec4 hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  opacity: 0.3;
+}
+
+.title-sec4 {
+  padding-bottom: 10px;
+}
+
+/* Segundo container */
+
+.title2-sec4 {
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+
+.cont2-sec4 {
+  display: flex;
+}
+
+.sub-box2-sec4 {
+  width: 100%;
+  margin: 15px;
+}
+
+.title-progress {
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 0.5rem;
+  line-height: 1.8;
+  margin-top: 0%;
+  font-size: 1rem;
+}
+
+.progress {
+  height: 0.5rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  background-color: #e9ecef;
+  border-radius: 0.25rem;
+}
+
+.progress-bar1 {
+  width: 65%;
+  background-color: var(--color-desierto);
+}
+
+.progress-bar2 {
+  width: 70%;
+  background-color: var(--color-desierto);
+}
+
+.progress-bar3 {
+  width: 10%;
+  background-color: var(--color-desierto);
+}
+
+.progress-bar4 {
+  width: 10%;
+  background-color: var(--color-desierto);
+}
+
+.progress-bar5 {
+  width: 10%;
+  background-color: var(--color-desierto);
+}
+
+.progress-bar6 {
+  width: 50%;
+  background-color: var(--color-desierto);
+}
+
+.download-cv {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 7rem;
+}
+
+.btn-cv {
+  text-decoration: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border: 1px solid var(--color-letras);
+  color: var(--color-letras);
+  transition: all 0.5s ease;
+}
+
+.btn-cv:hover {
+  background-color: var(--color-letras);
+  color: white;
 }
