@@ -462,3 +462,52 @@ body {
   background-color: var(--color-letras);
   color: white;
 }
+
+/* Estilo section5 */
+
+.section5 {
+  background-color: rgb(248, 249, 250);
+  min-height: calc(100vh - 70px);
+  padding-top: 100px;
+}
+
+.nav-gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 2rem;
+  letter-spacing: 0.3px;
+  font-weight: 500;
+  color: var(--color-subtitulo);
+  opacity: 0.8;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.items-gallery {
+  text-decoration: none;
+  color: inherit;
+  border-color: var(--color-desierto);
+}
+
+.items-gallery:hover {
+  height: 4px;
+  width: 0;
+  transition: all 0.1s ease;
+  border-bottom: 4px solid var(--color-desierto);
+}
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img-cnt {
+  width: 31.333%;
+  padding: 10px;
+}
+
+.img-cnt img {
+  width: 100%;
+}
