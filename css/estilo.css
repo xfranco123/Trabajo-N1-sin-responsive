@@ -531,10 +531,11 @@ footer {
   flex-wrap: nowrap;
   padding-top: 70px;
   padding-bottom: 70px;
+  justify-content: center;
 }
 
 .box-footer1 {
-  width: 40%;
+  width: 50%;
 }
 
 .box-footer1 h2 {
@@ -549,6 +550,8 @@ footer {
 
 .box-footer1 p {
   margin-bottom: 20px;
+  box-sizing: border-box;
+  padding-right: 100px;
 }
 
 .div-redes {
@@ -578,4 +581,58 @@ footer {
 
 .cnt2-redes a:hover {
   transform: scale(1.3);
+}
+
+.box-footer2 {
+  width: 50%;
+  margin-left: 20px;
+}
+
+.box-footer2 h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form-box {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.form-cnt {
+  width: 100%;
+}
+
+.box-input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+  display: block;
+  border-radius: 0px;
+  width: 90%;
+  height: 30px;
+}
+
+.form-help {
+  display: block;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+  border-radius: 0px;
+  width: 90%;
+}
+
+.btn-form {
+  background-color: var(--color-letras);
+  padding: 0.8rem 2.6rem;
+  font-weight: 500;
+  border-width: 2px;
+  transition: all 0.5s ease;
+  color: white;
+  cursor: pointer;
 }
