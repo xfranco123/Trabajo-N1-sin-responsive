@@ -1,4 +1,4 @@
-# Tranajo-N1-sin-rsponsive
+# Trabajo-N1-sin-rsponsive
 
 ![brave_yhAOhwILMj](https://user-images.githubusercontent.com/119545271/208787207-4877a74a-96a0-4e47-90ad-18481be89522.png)
 
